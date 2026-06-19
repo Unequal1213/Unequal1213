@@ -1,6 +1,6 @@
 # Hi, I'm Andrey
 
-I'm a self-taught Junior Python Backend Developer focused on building backend APIs with FastAPI, PostgreSQL, Docker, and automated testing.
+I'm a self-taught Junior Python Backend Developer / AI Automation Engineer focused on building backend APIs with FastAPI, PostgreSQL, Docker, and automated testing.
 
 ## Tech Stack
 
@@ -14,7 +14,7 @@ I'm a self-taught Junior Python Backend Developer focused on building backend AP
 - Ruff
 - GitHub Actions
 
-## Featured Project
+## Featured Projects
 
 ### Task Manager API
 
@@ -33,6 +33,24 @@ A production-style REST API for personal task management with authentication, da
 
 **Repository:** https://github.com/Unequal1213/task-manager-api
 
+### AI Ticket Assistant API
+
+A FastAPI backend project for support tickets with deterministic AI-style ticket analysis.
+
+**Tech:** Python, FastAPI, PostgreSQL, SQLAlchemy, Alembic, Docker, Pytest, Ruff, GitHub Actions
+
+**Highlights:**
+
+- Full ticket CRUD
+- Deterministic AI-style ticket analysis
+- Category, priority, summary, and suggested reply generation
+- Pagination, filtering, and sorting
+- PostgreSQL with Alembic migrations
+- Dockerized local development
+- Automated tests, linting, and GitHub Actions CI
+
+**Repository:** https://github.com/Unequal1213/ai-ticket-assistant-api
+
 ## Current Focus
 
-I'm currently improving my backend development skills and building portfolio projects focused on real-world API design, authentication, databases, testing, and deployment workflows.
+I'm currently improving my backend development and AI automation skills by building portfolio projects focused on real-world API design, databases, testing, and deployment workflows.
