@@ -51,6 +51,25 @@ A FastAPI backend project for support tickets with deterministic AI-style ticket
 
 **Repository:** https://github.com/Unequal1213/ai-ticket-assistant-api
 
+### Job Application Tracker API
+
+A FastAPI backend project for tracking job applications, companies, statuses, notes, sources, and application statistics.
+
+**Tech:** Python, FastAPI, PostgreSQL, SQLAlchemy, Alembic, Docker, Pytest, Ruff, GitHub Actions
+
+**Highlights:**
+
+- Company CRUD
+- Job application CRUD linked to company records
+- Status validation for saved, applied, interview, rejected, and offer
+- Pagination, filtering, and sorting for applications
+- Application statistics endpoint
+- PostgreSQL with Alembic migrations
+- Dockerized local development
+- Automated tests, linting, and GitHub Actions CI
+
+**Repository:** https://github.com/Unequal1213/job-application-tracker-api
+
 ## Current Focus
 
 I'm currently improving my backend development and AI automation skills by building portfolio projects focused on real-world API design, databases, testing, and deployment workflows.
