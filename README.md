@@ -70,6 +70,26 @@ A FastAPI backend project for tracking job applications, companies, statuses, no
 
 **Repository:** https://github.com/Unequal1213/job-application-tracker-api
 
+### Expense Tracker API
+
+A FastAPI backend project for tracking personal income, expenses, categories, transactions, and financial summaries.
+
+**Tech:** Python, FastAPI, PostgreSQL, SQLAlchemy, Alembic, Docker, Pytest, Ruff, GitHub Actions
+
+**Highlights:**
+
+- Category CRUD
+- Transaction CRUD linked to category records
+- Validation for income and expense transaction types
+- Amount validation
+- Pagination, filtering, and sorting for transactions
+- Financial summary endpoint with income, expenses, balance, counts, and totals by category
+- PostgreSQL with Alembic migrations
+- Dockerized local development
+- Automated tests, linting, and GitHub Actions CI
+
+**Repository:** https://github.com/Unequal1213/expense-tracker-api
+
 ## Current Focus
 
 I'm currently improving my backend development and AI automation skills by building portfolio projects focused on real-world API design, databases, testing, and deployment workflows.
