@@ -90,6 +90,26 @@ A FastAPI backend project for tracking personal income, expenses, categories, tr
 
 **Repository:** https://github.com/Unequal1213/expense-tracker-api
 
+### Mini CRM API
+
+A FastAPI backend project for managing customers, deals, sales pipeline stages, and CRM statistics.
+
+**Tech:** Python, FastAPI, PostgreSQL, SQLAlchemy, Alembic, Docker, Pytest, Ruff, GitHub Actions
+
+**Highlights:**
+
+- Customer CRUD
+- Deal CRUD linked to customer records
+- Validation for deal stages: lead, qualified, proposal, won, lost
+- Deal value validation
+- Pagination, filtering, and sorting for deals
+- Sales pipeline statistics endpoint with counts by stage, total value, won value, and open value
+- PostgreSQL with Alembic migrations
+- Dockerized local development
+- Automated tests, linting, and GitHub Actions CI
+
+**Repository:** https://github.com/Unequal1213/mini-crm-api
+
 ## Current Focus
 
 I'm currently improving my backend development and AI automation skills by building portfolio projects focused on real-world API design, databases, testing, and deployment workflows.
