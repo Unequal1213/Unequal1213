@@ -110,6 +110,25 @@ A FastAPI backend project for managing customers, deals, sales pipeline stages, 
 
 **Repository:** https://github.com/Unequal1213/mini-crm-api
 
+### AI Job Search Assistant Bot
+
+A Telegram bot that helps users analyze job vacancy text and generate short cover letter drafts.
+
+**Tech:** Python, aiogram, Pydantic, python-dotenv, Docker, Pytest, Ruff, GitHub Actions
+
+**Highlights:**
+
+- Telegram bot commands: `/start`, `/help`, `/analyze_vacancy`, `/generate_cover_letter`
+- Deterministic local AI-style vacancy analysis
+- Detected role, seniority level, required skills, matching keywords, and recommendation
+- Deterministic cover letter draft generation
+- Clean handler/service architecture
+- Environment-based `BOT_TOKEN` configuration
+- Docker support
+- Automated tests, linting, and GitHub Actions CI
+
+**Repository:** https://github.com/Unequal1213/ai-job-search-assistant-bot
+
 ## Current Focus
 
 I'm currently improving my backend development and AI automation skills by building portfolio projects focused on real-world API design, databases, testing, and deployment workflows.
