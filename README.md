@@ -1,134 +1,120 @@
-# Hi, I'm Andrey
+![Andrey Golovin — Python Backend & Automation Developer](assets/banner.svg)
 
-I'm a self-taught Junior Python Backend Developer / AI Automation Engineer focused on building backend APIs with FastAPI, PostgreSQL, Docker, and automated testing.
+# Hi, I'm Andrey Golovin
+
+Python Backend & Automation Developer
+
+I build reliable business automation tools: FastAPI backends, Telegram bots, API integrations, data pipelines and internal dashboards.
+
+RU: Разрабатываю backend-сервисы, Telegram-ботов, API-интеграции и автоматизацию бизнес-процессов.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat&logo=sqlalchemy&logoColor=white)
+![Alembic](https://img.shields.io/badge/Alembic-6B7280?style=flat)
+![HTTPX](https://img.shields.io/badge/HTTPX-0F172A?style=flat)
+![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat&logo=pytest&logoColor=white)
+![Telegram Bots](https://img.shields.io/badge/Telegram%20Bots-26A5E4?style=flat&logo=telegram&logoColor=white)
+![API Integrations](https://img.shields.io/badge/API%20Integrations-111827?style=flat)
+
+## Navigation
+
+- [About](#about)
+- [Featured Project](#featured-project)
+- [Tech Stack](#tech-stack)
+- [What I Build](#what-i-build)
+- [Current Focus](#current-focus)
+- [Contact](#contact)
+
+## About
+
+I'm focused on building practical backend and automation systems for small businesses and internal teams. My projects usually combine API integrations, data validation, background jobs, dashboards and deployment-ready infrastructure.
+
+I care about:
+- clean backend architecture;
+- reliable data processing;
+- predictable integrations with external APIs;
+- Docker-based deployment;
+- tests, health checks and maintainability.
+
+## Featured Project
+
+### Lead Gateway Platform
+
+Production-style FastAPI platform for validating, scheduling and delivering batch leads to external APIs.
+
+Repository:
+https://github.com/Unequal1213/lead-gateway-platform
+
+Key features:
+- Excel/CSV validation;
+- PostgreSQL job queue;
+- scheduled processing;
+- retry strategy;
+- rate limiting;
+- idempotency;
+- audit log;
+- mock partner API;
+- Docker Compose;
+- health checks;
+- automated tests.
+
+![Lead Gateway Architecture](assets/architecture-mini.svg)
+
+## Projects & Service Areas
+
+| Project / Area | What it does | Stack |
+| --- | --- | --- |
+| Lead Gateway Platform | Validates, schedules and delivers batch leads to external APIs with retries, audit trail and Docker runtime. | FastAPI, PostgreSQL, SQLAlchemy, Alembic, HTTPX, Docker, Pytest |
+| Telegram Bot Automation | Business bots for lead capture, notifications, forms, support scenarios and integrations. | Python, aiogram, APIs, PostgreSQL |
+| API Integration Services | Connects websites, CRMs, spreadsheets and external APIs into reliable workflows. | FastAPI, HTTPX, Docker, PostgreSQL |
+| Excel / CSV Processing | Validates, cleans and transforms business files into structured processing pipelines. | Python, openpyxl, data validation |
 
 ## Tech Stack
 
-- Python
-- FastAPI
-- PostgreSQL
-- SQLAlchemy
-- Alembic
-- Docker
-- Pytest
-- Ruff
-- GitHub Actions
+Backend:
+Python, FastAPI, SQLAlchemy, Alembic, HTTPX
 
-## Featured Projects
+Databases:
+PostgreSQL, SQLite for local demos
 
-### Task Manager API
+Automation:
+Telegram bots, Excel/CSV processing, scheduled jobs, background workers
 
-A production-style REST API for personal task management with authentication, database migrations, Docker setup, tests, linting, and CI.
+DevOps:
+Docker, Docker Compose, Nginx, health checks
 
-**Tech:** Python, FastAPI, PostgreSQL, SQLAlchemy, Alembic, Docker, Pytest, Ruff, GitHub Actions
+Testing:
+Pytest, Ruff, mock services, integration tests
 
-**Highlights:**
+## What I Build
 
-- JWT authentication and protected user endpoints
-- Full task CRUD with user-level data isolation
-- Pagination, filtering, and sorting for task queries
-- Alembic database migrations
-- Dockerized local development environment
-- Automated tests and linting with GitHub Actions CI
-
-**Repository:** https://github.com/Unequal1213/task-manager-api
-
-### AI Ticket Assistant API
-
-A FastAPI backend project for support tickets with deterministic AI-style ticket analysis.
-
-**Tech:** Python, FastAPI, PostgreSQL, SQLAlchemy, Alembic, Docker, Pytest, Ruff, GitHub Actions
-
-**Highlights:**
-
-- Full ticket CRUD
-- Deterministic AI-style ticket analysis
-- Category, priority, summary, and suggested reply generation
-- Pagination, filtering, and sorting
-- PostgreSQL with Alembic migrations
-- Dockerized local development
-- Automated tests, linting, and GitHub Actions CI
-
-**Repository:** https://github.com/Unequal1213/ai-ticket-assistant-api
-
-### Job Application Tracker API
-
-A FastAPI backend project for tracking job applications, companies, statuses, notes, sources, and application statistics.
-
-**Tech:** Python, FastAPI, PostgreSQL, SQLAlchemy, Alembic, Docker, Pytest, Ruff, GitHub Actions
-
-**Highlights:**
-
-- Company CRUD
-- Job application CRUD linked to company records
-- Status validation for saved, applied, interview, rejected, and offer
-- Pagination, filtering, and sorting for applications
-- Application statistics endpoint
-- PostgreSQL with Alembic migrations
-- Dockerized local development
-- Automated tests, linting, and GitHub Actions CI
-
-**Repository:** https://github.com/Unequal1213/job-application-tracker-api
-
-### Expense Tracker API
-
-A FastAPI backend project for tracking personal income, expenses, categories, transactions, and financial summaries.
-
-**Tech:** Python, FastAPI, PostgreSQL, SQLAlchemy, Alembic, Docker, Pytest, Ruff, GitHub Actions
-
-**Highlights:**
-
-- Category CRUD
-- Transaction CRUD linked to category records
-- Validation for income and expense transaction types
-- Amount validation
-- Pagination, filtering, and sorting for transactions
-- Financial summary endpoint with income, expenses, balance, counts, and totals by category
-- PostgreSQL with Alembic migrations
-- Dockerized local development
-- Automated tests, linting, and GitHub Actions CI
-
-**Repository:** https://github.com/Unequal1213/expense-tracker-api
-
-### Mini CRM API
-
-A FastAPI backend project for managing customers, deals, sales pipeline stages, and CRM statistics.
-
-**Tech:** Python, FastAPI, PostgreSQL, SQLAlchemy, Alembic, Docker, Pytest, Ruff, GitHub Actions
-
-**Highlights:**
-
-- Customer CRUD
-- Deal CRUD linked to customer records
-- Validation for deal stages: lead, qualified, proposal, won, lost
-- Deal value validation
-- Pagination, filtering, and sorting for deals
-- Sales pipeline statistics endpoint with counts by stage, total value, won value, and open value
-- PostgreSQL with Alembic migrations
-- Dockerized local development
-- Automated tests, linting, and GitHub Actions CI
-
-**Repository:** https://github.com/Unequal1213/mini-crm-api
-
-### AI Job Search Assistant Bot
-
-A Telegram bot that helps users analyze job vacancy text and generate short cover letter drafts.
-
-**Tech:** Python, aiogram, Pydantic, python-dotenv, Docker, Pytest, Ruff, GitHub Actions
-
-**Highlights:**
-
-- Telegram bot commands: `/start`, `/help`, `/analyze_vacancy`, `/generate_cover_letter`
-- Deterministic local AI-style vacancy analysis
-- Detected role, seniority level, required skills, matching keywords, and recommendation
-- Deterministic cover letter draft generation
-- Clean handler/service architecture
-- Environment-based `BOT_TOKEN` configuration
-- Docker support
-- Automated tests, linting, and GitHub Actions CI
-
-**Repository:** https://github.com/Unequal1213/ai-job-search-assistant-bot
+- Telegram bots for business;
+- lead processing systems;
+- CRM and API integrations;
+- Excel/CSV automation;
+- internal dashboards;
+- background workers and retry pipelines;
+- AI-assisted business tools.
 
 ## Current Focus
 
-I'm currently improving my backend development and AI automation skills by building portfolio projects focused on real-world API design, databases, testing, and deployment workflows.
+- Building a portfolio of production-style automation projects;
+- Creating reusable FastAPI starters for client work;
+- Improving Telegram bot and API integration workflows;
+- Turning repetitive business processes into reliable software.
+
+## GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Unequal1213&show_icons=true&theme=transparent&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Unequal1213&layout=compact&theme=transparent&hide_border=true)
+
+## Contact
+
+- GitHub: https://github.com/Unequal1213
+- Featured project: https://github.com/Unequal1213/lead-gateway-platform
+- Available for freelance backend, bot and automation projects.
+
+Building practical software that turns repetitive business processes into reliable automated systems.

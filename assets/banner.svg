@@ -1,0 +1,26 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Andrey Golovin - Python Backend and Automation Developer</title>
+  <desc id="desc">Dark minimalist profile banner for a Python backend and automation developer.</desc>
+  <rect width="1200" height="320" fill="#0B1020"/>
+  <rect x="32" y="32" width="1136" height="256" rx="22" fill="#111827" stroke="#263244"/>
+  <path d="M0 252C170 214 284 255 437 221C589 187 681 103 840 124C997 145 1041 240 1200 198V320H0V252Z" fill="#0F766E" opacity="0.18"/>
+  <path d="M860 40H1168V288H860V40Z" fill="#172033"/>
+  <g opacity="0.42">
+    <circle cx="900" cy="83" r="5" fill="#38BDF8"/>
+    <circle cx="946" cy="83" r="5" fill="#2DD4BF"/>
+    <circle cx="992" cy="83" r="5" fill="#A3E635"/>
+    <rect x="888" y="120" width="216" height="12" rx="6" fill="#334155"/>
+    <rect x="888" y="150" width="168" height="12" rx="6" fill="#334155"/>
+    <rect x="888" y="180" width="236" height="12" rx="6" fill="#334155"/>
+    <rect x="888" y="210" width="136" height="12" rx="6" fill="#334155"/>
+  </g>
+  <g opacity="0.2">
+    <path d="M64 64H236" stroke="#38BDF8" stroke-width="2"/>
+    <path d="M64 256H286" stroke="#2DD4BF" stroke-width="2"/>
+    <path d="M1040 64H1136" stroke="#A3E635" stroke-width="2"/>
+    <path d="M1030 256H1136" stroke="#38BDF8" stroke-width="2"/>
+  </g>
+  <text x="74" y="128" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="56" font-weight="800">Andrey Golovin</text>
+  <text x="76" y="183" fill="#7DD3FC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="31" font-weight="650">Python Backend &amp; Automation Developer</text>
+  <text x="78" y="233" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="500">FastAPI · APIs · Telegram Bots · Docker · PostgreSQL</text>
+</svg>

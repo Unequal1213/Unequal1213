@@ -1,0 +1,46 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Lead Gateway Architecture</title>
+  <desc id="desc">Business Request to FastAPI Backend, Queue, Worker, External API and Audit Log.</desc>
+  <rect width="1200" height="260" rx="18" fill="#0B1020"/>
+  <rect x="28" y="28" width="1144" height="204" rx="16" fill="#111827" stroke="#263244"/>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0 0L10 5L0 10Z" fill="#38BDF8"/>
+    </marker>
+  </defs>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">
+    <rect x="56" y="86" width="154" height="88" rx="12" fill="#172033" stroke="#334155"/>
+    <text x="133" y="124" text-anchor="middle" fill="#F8FAFC">Business</text>
+    <text x="133" y="149" text-anchor="middle" fill="#CBD5E1">Request</text>
+
+    <rect x="256" y="86" width="168" height="88" rx="12" fill="#0F2A3D" stroke="#38BDF8"/>
+    <text x="340" y="124" text-anchor="middle" fill="#F8FAFC">FastAPI</text>
+    <text x="340" y="149" text-anchor="middle" fill="#CBD5E1">Backend</text>
+
+    <rect x="470" y="86" width="126" height="88" rx="12" fill="#172033" stroke="#334155"/>
+    <text x="533" y="137" text-anchor="middle" fill="#F8FAFC">Queue</text>
+
+    <rect x="642" y="86" width="132" height="88" rx="12" fill="#172033" stroke="#334155"/>
+    <text x="708" y="137" text-anchor="middle" fill="#F8FAFC">Worker</text>
+
+    <rect x="820" y="86" width="150" height="88" rx="12" fill="#102923" stroke="#2DD4BF"/>
+    <text x="895" y="124" text-anchor="middle" fill="#F8FAFC">External</text>
+    <text x="895" y="149" text-anchor="middle" fill="#CBD5E1">API</text>
+
+    <rect x="1016" y="86" width="128" height="88" rx="12" fill="#1E293B" stroke="#A3E635"/>
+    <text x="1080" y="124" text-anchor="middle" fill="#F8FAFC">Audit</text>
+    <text x="1080" y="149" text-anchor="middle" fill="#CBD5E1">Log</text>
+  </g>
+  <g stroke="#38BDF8" stroke-width="3" marker-end="url(#arrow)">
+    <path d="M210 130H248"/>
+    <path d="M424 130H462"/>
+    <path d="M596 130H634"/>
+    <path d="M774 130H812"/>
+    <path d="M970 130H1008"/>
+  </g>
+  <g opacity="0.22">
+    <path d="M70 206H394" stroke="#38BDF8" stroke-width="2"/>
+    <path d="M462 206H742" stroke="#2DD4BF" stroke-width="2"/>
+    <path d="M810 206H1132" stroke="#A3E635" stroke-width="2"/>
+  </g>
+</svg>
