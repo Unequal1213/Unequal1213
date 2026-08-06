@@ -108,7 +108,7 @@ planned as a separate controlled phase.
 
 ## Verifiable Engineering Evidence
 
-![Engineering evidence: tests, migrations, queues, retries, idempotency, structured AI outputs, PII boundaries, Docker and CI](assets/evidence.svg)
+![Verifiable engineering practices: tests, migrations, queues, retries, idempotency, structured AI, PII boundaries, Docker and CI](assets/evidence.en.svg)
 
 These categories are grounded in the code, tests and documentation of the
 public projects. They are not an aggregate score and do not replace each
