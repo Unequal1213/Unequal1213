@@ -1,4 +1,4 @@
-<svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http&#58;//www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Lead Gateway Architecture</title>
   <desc id="desc">Business Request to FastAPI Backend, Queue, Worker, External API and Audit Log.</desc>
   <rect width="1200" height="260" rx="18" fill="#0B1020"/>
