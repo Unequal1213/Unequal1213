@@ -1,0 +1,58 @@
+<svg width="1200" height="860" viewBox="0 0 1200 860" fill="none" xmlns="http&#58;//www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Проверяемые инженерные практики</title>
+  <desc id="desc">Восемь категорий инженерных практик без сводных оценок и маркетинговых метрик.</desc>
+  <rect width="1200" height="860" rx="24" fill="#08111F"/>
+  <rect x="28" y="28" width="1144" height="804" rx="20" fill="#0F1B2D" stroke="#29405A"/>
+  <text x="58" y="86" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="42" font-weight="750">ПРОВЕРЯЕМЫЕ ИНЖЕНЕРНЫЕ ПРАКТИКИ</text>
+  <text x="58" y="126" fill="#91A8C1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26">Публичный код · тесты · миграции · явные границы</text>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <g>
+      <rect x="58" y="158" width="520" height="140" rx="16" fill="#132238" stroke="#34516F"/>
+      <circle cx="92" cy="206" r="8" fill="#38BDF8"/>
+      <text x="118" y="217" fill="#F8FAFC" font-size="36" font-weight="700">Автоматические тесты</text>
+      <text x="86" y="266" fill="#AFC1D4" font-size="28">Поведение и границы</text>
+    </g>
+    <g>
+      <rect x="622" y="158" width="520" height="140" rx="16" fill="#132238" stroke="#34516F"/>
+      <circle cx="656" cy="206" r="8" fill="#2DD4BF"/>
+      <text x="682" y="217" fill="#F8FAFC" font-size="36" font-weight="700">Миграции БД</text>
+      <text x="650" y="266" fill="#AFC1D4" font-size="28">История схемы</text>
+    </g>
+    <g>
+      <rect x="58" y="318" width="520" height="140" rx="16" fill="#132238" stroke="#34516F"/>
+      <circle cx="92" cy="366" r="8" fill="#F59E0B"/>
+      <text x="118" y="377" fill="#F8FAFC" font-size="36" font-weight="700">Очереди и повторы</text>
+      <text x="86" y="426" fill="#AFC1D4" font-size="28">Контроль ошибок</text>
+    </g>
+    <g>
+      <rect x="622" y="318" width="520" height="140" rx="16" fill="#132238" stroke="#34516F"/>
+      <circle cx="656" cy="366" r="8" fill="#A78BFA"/>
+      <text x="682" y="377" fill="#F8FAFC" font-size="36" font-weight="700">Идемпотентность</text>
+      <text x="650" y="426" fill="#AFC1D4" font-size="28">Защита от дублей</text>
+    </g>
+    <g>
+      <rect x="58" y="478" width="520" height="140" rx="16" fill="#132238" stroke="#34516F"/>
+      <circle cx="92" cy="526" r="8" fill="#38BDF8"/>
+      <text x="118" y="537" fill="#F8FAFC" font-size="36" font-weight="700">Структурированный AI</text>
+      <text x="86" y="586" fill="#AFC1D4" font-size="28">Проверяемые контракты</text>
+    </g>
+    <g>
+      <rect x="622" y="478" width="520" height="140" rx="16" fill="#132238" stroke="#34516F"/>
+      <circle cx="656" cy="526" r="8" fill="#2DD4BF"/>
+      <text x="682" y="537" fill="#F8FAFC" font-size="36" font-weight="700">Границы PII</text>
+      <text x="650" y="586" fill="#AFC1D4" font-size="28">Маскирование данных</text>
+    </g>
+    <g>
+      <rect x="58" y="638" width="520" height="140" rx="16" fill="#132238" stroke="#34516F"/>
+      <circle cx="92" cy="686" r="8" fill="#F59E0B"/>
+      <text x="118" y="697" fill="#F8FAFC" font-size="36" font-weight="700">Docker</text>
+      <text x="86" y="746" fill="#AFC1D4" font-size="28">Воспроизводимый запуск</text>
+    </g>
+    <g>
+      <rect x="622" y="638" width="520" height="140" rx="16" fill="#132238" stroke="#34516F"/>
+      <circle cx="656" cy="686" r="8" fill="#A78BFA"/>
+      <text x="682" y="697" fill="#F8FAFC" font-size="36" font-weight="700">CI-проверки</text>
+      <text x="650" y="746" fill="#AFC1D4" font-size="28">Линтинг и тесты</text>
+    </g>
+  </g>
+</svg>

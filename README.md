@@ -1,120 +1,142 @@
-![Andrey Golovin — Python Backend & Automation Developer](assets/banner.svg)
+[Русский](README.md) | [English](README.en.md)
 
-# Hi, I'm Andrey Golovin
+![Андрей Головин — Backend, Automation & AI Engineer](assets/banner.svg)
 
-Python Backend & Automation Developer
+# Андрей Головин
 
-I build reliable business automation tools: FastAPI backends, Telegram bots, API integrations, data pipelines and internal dashboards.
+**Backend-разработка, автоматизация и AI-решения для бизнеса**
 
-RU: Разрабатываю backend-сервисы, Telegram-ботов, API-интеграции и автоматизацию бизнес-процессов.
+Проектирую backend-сервисы, автоматизирую бизнес-процессы и интегрирую AI в
+прикладные рабочие сценарии. В работе делаю упор на проверяемое поведение:
+явные ограничения, миграции, тесты, безопасные границы данных и предсказуемые
+интеграции с внешними системами.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat&logo=sqlalchemy&logoColor=white)
-![Alembic](https://img.shields.io/badge/Alembic-6B7280?style=flat)
-![HTTPX](https://img.shields.io/badge/HTTPX-0F172A?style=flat)
-![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat&logo=pytest&logoColor=white)
-![Telegram Bots](https://img.shields.io/badge/Telegram%20Bots-26A5E4?style=flat&logo=telegram&logoColor=white)
-![API Integrations](https://img.shields.io/badge/API%20Integrations-111827?style=flat)
+[![Портфолио](https://img.shields.io/badge/%D0%9F%D0%BE%D1%80%D1%82%D1%84%D0%BE%D0%BB%D0%B8%D0%BE-0F766E?style=flat-square)](https://unequal1213.github.io/)
+[![Telegram](https://img.shields.io/badge/Telegram-2563EB?style=flat-square)](https://t.me/chiwi_bang8)
+[![Email](https://img.shields.io/badge/Email-334155?style=flat-square)](mailto:lol.komar110@gmail.com)
+[![Kwork](https://img.shields.io/badge/Kwork-7C3AED?style=flat-square)](https://kwork.ru/user/unequal)
+[![Яндекс Услуги](https://img.shields.io/badge/%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81_%D0%A3%D1%81%D0%BB%D1%83%D0%B3%D0%B8-EA4335?style=flat-square)](https://uslugi.yandex.ru/profile/AndrejGolovin-3372621)
 
-## Navigation
+## Что я разрабатываю
 
-- [About](#about)
-- [Featured Project](#featured-project)
-- [Tech Stack](#tech-stack)
-- [What I Build](#what-i-build)
-- [Current Focus](#current-focus)
-- [Contact](#contact)
+- backend API для прикладных и внутренних систем;
+- Telegram-боты и автоматизированные рабочие процессы;
+- интеграции с API и CRM;
+- конвейеры обработки Excel и CSV;
+- фоновые задачи, очереди и контролируемые повторы;
+- AI-assisted системы для бизнес-сценариев;
+- внутренние панели управления.
 
-## About
-
-I'm focused on building practical backend and automation systems for small businesses and internal teams. My projects usually combine API integrations, data validation, background jobs, dashboards and deployment-ready infrastructure.
-
-I care about:
-- clean backend architecture;
-- reliable data processing;
-- predictable integrations with external APIs;
-- Docker-based deployment;
-- tests, health checks and maintainability.
-
-## Featured Project
+## Избранные проекты
 
 ### Lead Gateway Platform
 
-Production-style FastAPI platform for validating, scheduling and delivering batch leads to external APIs.
+**Задача.** Надёжно принимать пакетные данные, проверять их и доставлять записи
+во внешнее API так, чтобы временный сбой не останавливал всю обработку.
 
-Repository:
-https://github.com/Unequal1213/lead-gateway-platform
+**Решение.** FastAPI-сервис с CSV/XLSX ingestion, валидацией и нормализацией,
+планированием и очередью на PostgreSQL.
 
-Key features:
-- Excel/CSV validation;
-- PostgreSQL job queue;
-- scheduled processing;
-- retry strategy;
-- rate limiting;
-- idempotency;
-- audit log;
-- mock partner API;
-- Docker Compose;
-- health checks;
-- automated tests.
+**Инженерные особенности.** Retry policy для временных ошибок, rate limiting,
+детерминированные idempotency keys, audit trail каждой попытки, Docker runtime и
+автоматические тесты. Публичная версия использует только синтетические данные и
+mock partner API.
 
-![Lead Gateway Architecture](assets/architecture-mini.svg)
+**Стек.** Python, FastAPI, PostgreSQL, SQLAlchemy, Alembic, HTTPX, Docker, Pytest.
 
-## Projects & Service Areas
+[Репозиторий](https://github.com/Unequal1213/lead-gateway-platform) ·
+[Разбор проекта](https://unequal1213.github.io/cases/lead-gateway-platform/)
 
-| Project / Area | What it does | Stack |
-| --- | --- | --- |
-| Lead Gateway Platform | Validates, schedules and delivers batch leads to external APIs with retries, audit trail and Docker runtime. | FastAPI, PostgreSQL, SQLAlchemy, Alembic, HTTPX, Docker, Pytest |
-| Telegram Bot Automation | Business bots for lead capture, notifications, forms, support scenarios and integrations. | Python, aiogram, APIs, PostgreSQL |
-| API Integration Services | Connects websites, CRMs, spreadsheets and external APIs into reliable workflows. | FastAPI, HTTPX, Docker, PostgreSQL |
-| Excel / CSV Processing | Validates, cleans and transforms business files into structured processing pipelines. | Python, openpyxl, data validation |
+![Архитектура Lead Gateway Platform](assets/architecture-mini.svg)
 
-## Tech Stack
+### AI Support Copilot
 
-Backend:
-Python, FastAPI, SQLAlchemy, Alembic, HTTPX
+**Задача.** Помочь оператору поддержки получить структурированную классификацию,
+приоритет, краткое резюме и черновик ответа без передачи AI автономных решений.
 
-Databases:
-PostgreSQL, SQLite for local demos
+**Решение.** FastAPI backend с типизированным контрактом реального LLM provider
+и offline deterministic provider за единым интерфейсом.
 
-Automation:
-Telegram bots, Excel/CSV processing, scheduled jobs, background workers
+**Инженерные особенности.** Strict Structured Outputs и локальная валидация,
+PII masking перед внешней границей, ограниченные repair/retry, прозрачный
+deterministic fallback, audit metadata и PostgreSQL. Полная проверка включает
+141 тест; отдельно выполнен контролируемый provider smoke на синтетических
+данных.
 
-DevOps:
-Docker, Docker Compose, Nginx, health checks
+**Стек.** Python, FastAPI, PostgreSQL, SQLAlchemy, Alembic, Pydantic, OpenAI-compatible API, Docker, Pytest.
 
-Testing:
-Pytest, Ruff, mock services, integration tests
+[Репозиторий](https://github.com/Unequal1213/ai-ticket-assistant-api) ·
+[Разбор проекта](https://unequal1213.github.io/cases/ai-support-copilot/)
 
-## What I Build
+## В активной разработке
 
-- Telegram bots for business;
-- lead processing systems;
-- CRM and API integrations;
-- Excel/CSV automation;
-- internal dashboards;
-- background workers and retry pipelines;
-- AI-assisted business tools.
+### Job Search Workflow Bot
 
-## Current Focus
+Durable Telegram workflow с состоянием в PostgreSQL, изоляцией пользователя и
+чата, idempotent обработкой updates, сохраняемыми rate limits,
+детерминированным анализом вакансий и шаблонными черновиками сопроводительных
+писем.
 
-- Building a portfolio of production-style automation projects;
-- Creating reusable FastAPI starters for client work;
-- Improving Telegram bot and API integration workflows;
-- Turning repetitive business processes into reliable software.
+Текущий provider является deterministic/offline. Реальный LLM provider
+запланирован как отдельная контролируемая фаза.
 
-## GitHub Stats
+[Репозиторий](https://github.com/Unequal1213/ai-job-search-assistant-bot)
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Unequal1213&show_icons=true&theme=transparent&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Unequal1213&layout=compact&theme=transparent&hide_border=true)
+## Инженерный подход
 
-## Contact
+- **Evidence before claims, явные ограничения.** AI Support документирует точный
+  scope provider smoke, а Job Bot прямо фиксирует текущий offline provider.
+- **Тесты и миграции.** Lead Gateway, AI Support и Job Bot имеют Pytest-наборы и
+  явные Alembic migrations; Task Manager тестирует границы владения задачами.
+- **Предсказуемые интеграции.** Lead Gateway разделяет terminal и retryable
+  outcomes, ограничивает частоту запросов и использует idempotency keys.
+- **Безопасные данные и логи.** AI Support маскирует обнаруживаемые PII до
+  provider boundary; Job Bot не сохраняет исходный текст вакансии и проверяет
+  allowlist логов.
+- **Воспроизводимая поставка.** Docker-конфигурации и CI quality gates проверяют
+  проекты до публикации; новые возможности добавляются отдельными
+  контролируемыми фазами.
 
-- GitHub: https://github.com/Unequal1213
-- Featured project: https://github.com/Unequal1213/lead-gateway-platform
-- Available for freelance backend, bot and automation projects.
+## Технологии
 
-Building practical software that turns repetitive business processes into reliable automated systems.
+- **Backend:** Python, FastAPI, SQLAlchemy, Alembic, Pydantic, HTTPX.
+- **Data:** PostgreSQL; SQLite для тестов.
+- **Automation:** aiogram, schedulers, queues, API integrations, Excel/CSV pipelines.
+- **AI:** OpenAI-compatible providers, Structured Outputs, PII masking, deterministic fallback.
+- **Quality:** Pytest, Ruff, Playwright, accessibility checks, Docker, GitHub Actions.
+
+## Проверяемые инженерные доказательства
+
+![Проверяемые инженерные практики: тесты, миграции, очереди, повторные попытки, идемпотентность, структурированный AI, PII-границы, Docker и CI](assets/evidence.ru.svg)
+
+Эти категории опираются на код, тесты и документацию публичных проектов. Они не
+являются объединённой статистикой и не подменяют ограничения конкретного
+репозитория.
+
+## Дополнительные проекты
+
+### Task Manager API
+
+JWT-аутентификация, Argon2-хеширование паролей и протестированная изоляция задач
+между пользователями.
+
+[Репозиторий](https://github.com/Unequal1213/task-manager-api) ·
+[Все публичные репозитории](https://github.com/Unequal1213?tab=repositories)
+
+## Доступность
+
+Открыт к backend-разработке, автоматизации, Telegram-ботам, API-интеграциям и
+AI-assisted бизнес-системам.
+
+## Контакты
+
+[![Портфолио](https://img.shields.io/badge/%D0%9F%D0%BE%D1%80%D1%82%D1%84%D0%BE%D0%BB%D0%B8%D0%BE-0F766E?style=flat-square)](https://unequal1213.github.io/)
+[![Telegram](https://img.shields.io/badge/Telegram-2563EB?style=flat-square)](https://t.me/chiwi_bang8)
+[![Email](https://img.shields.io/badge/Email-334155?style=flat-square)](mailto:lol.komar110@gmail.com)
+[![Kwork](https://img.shields.io/badge/Kwork-7C3AED?style=flat-square)](https://kwork.ru/user/unequal)
+[![Яндекс Услуги](https://img.shields.io/badge/%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81_%D0%A3%D1%81%D0%BB%D1%83%D0%B3%D0%B8-EA4335?style=flat-square)](https://uslugi.yandex.ru/profile/AndrejGolovin-3372621)
+
+---
+
+Практичные системы, которые превращают ручные операции в контролируемые
+программные процессы.
